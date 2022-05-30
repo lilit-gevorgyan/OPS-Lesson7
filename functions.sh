@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "first commit"
 _test_if_dir_exist () {
 
 if [-d ~/backup];then
