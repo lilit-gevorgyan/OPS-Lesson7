@@ -8,4 +8,5 @@ mkdir -p ~/backup && echo "dir"
 fi
 
 }
+echo hi
 
