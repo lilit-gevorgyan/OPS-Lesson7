@@ -1,6 +1,7 @@
 #!/bin/bash
-
+echo "first commit"
 _test_if_dir_exist () {
+
 
 	if [-d ~/backup];then
 		echo "Dir exists"
@@ -8,5 +9,6 @@ _test_if_dir_exist () {
   		mkdir -p ~/backup && echo "Dir has been created succesfully!"
 		
 	fi
+
 }
 
