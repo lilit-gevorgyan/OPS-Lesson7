@@ -4,9 +4,9 @@ _test_if_dir_exist () {
 
 if [-d ~/backup];then
 
-   echo "dir exists"
+   echo "Dir exists"
 else
-  mkdir -p ~/backup && echo "dir has been created succesfully"
+  mkdir -p /backup && echo "Backup dir has been created succesfully"
 fi
 }
 
